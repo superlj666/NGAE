@@ -1,0 +1,3 @@
+python train.py --data-name final_structures6 --save-interval 100 --save-appendix _NGAE_sigmoid --epochs 300 --lr 1e-4 --model NGAE --bidirectional --nz 56 --batch-size 32 --only-test --continue-from 100
+python train.py --data-name final_structures6 --save-interval 100 --save-appendix _NGAE_sigmoid --epochs 300 --lr 1e-4 --model NGAE --bidirectional --nz 56 --batch-size 32 --only-test --continue-from 200
+python train.py --data-name final_structures6 --save-interval 100 --save-appendix _NGAE_sigmoid --epochs 300 --lr 1e-4 --model NGAE --bidirectional --nz 56 --batch-size 32 --only-test --continue-from 300
